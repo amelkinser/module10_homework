@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #4676d7;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: white;
+  background: #664e96;
+}
+
+.btn__text {
+  margin-right: 10px;
+}
+
+.btn__icon {
+  width: 16px;
+  height: 16px;
+}

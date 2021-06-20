@@ -1,0 +1,136 @@
+@font-face {
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+  font-family: "OpenSansSemiBold";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.input-wrapper {
+  font-family: "OpenSansSemiBold";
+}
+
+.btn-send,
+.btn-geolocation {
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.btn-send:hover,
+.btn-geolocation:hover {
+  color: white;
+  background: #664e96;
+}
+
+#input-message {
+  cursor: pointer;
+  width: 250px;
+  font-size: 12px;
+  padding: 8px 5px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s;
+}
+
+#input-message:hover {
+  color: black;
+  background: #ffffff;
+}
+
+.text-area {
+  margin-top: 25px;
+  max-width: 500px;
+  height: 500px;
+  font-size: 12px;
+  background: #f6f6f6;
+  border: 1px solid #ccc;
+  padding: 6px;
+  overflow: auto;
+}
+
+.message {
+  display: block;
+  max-width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+
+.message-to-server {
+  margin-left: auto;
+  border: 1px solid #4676d7;
+  color: #4676d7;
+}
+
+.message-from-server {
+  border: 1px solid #4e965c;
+  color: #4e965c;
+}
+
+.service-message {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.service-message--err {
+  color: red;
+}
+
+.service-message--connect,
+.service-message--default {
+  color: #000;
+}
+
+.service-message--geo {
+  color: blue;
+}
